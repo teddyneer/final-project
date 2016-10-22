@@ -46,8 +46,8 @@
 	text-align: center;
 }
 
-.sunset {
-	padding-top: 50px;
+#title {
+	padding-bottom: 50px;
 }
 
 /*about me page*/
@@ -72,7 +72,19 @@
 .aboutme2 {
 	font-family: 'Catamaran', sans-serif;
 	font-size: 18px;
+	padding-top: 20px;
+	/*margin-left: 80px;
+	margin-right: 80px;*/
 }
+
+#aboutmeleft {
+	margin-left: 80px;
+}
+
+#aboutmeright{
+	margin-right: 80px;
+}
+
 /*contact me page*/
 .contactmecontainer {
 	padding-top: 70px;
@@ -86,6 +98,22 @@
 #contactme {
 	margin-bottom: 25px;
 	font-family: 'Sorts Mill Goudy', serif;
+}
+
+#linkedin {
+	color: #a499d6;
+	text-decoration: underline;
+}
+
+.contactmedetails {
+	text-indent: 20px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+}
+
+.contactsource {
+	font-family: 'Delius', cursive;
+	font-size: 20px;
 }
 
 /*education page*/
@@ -151,6 +179,7 @@
 .experiencedetails {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
+	list-style: circle;
 }
 
 #infomanagelogo {
@@ -193,6 +222,7 @@
 .leadershipdetails {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
+	list-style: circle;
 }
 
 #sigmalogo {
@@ -219,6 +249,12 @@
 	font-family: 'Sorts Mill Goudy', serif;
 }
 
+.skills {
+	font-family: 'Delius', cursive;
+	font-size: 20px;
+	list-style: circle;
+}
+
 /*interests page*/
 .interestscontainer {
 	padding-top: 70px;
@@ -234,6 +270,17 @@
 	font-family: 'Sorts Mill Goudy', serif;
 }
 
+.interests {
+	font-family: 'Delius', cursive;
+	font-size: 20px;
+}
+
+.interestsdetails {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	list-style: circle;
+}
+
 /*projects page*/
 #projectscolor {
 	background-color: pink;
@@ -245,9 +292,26 @@
 	text-align: center;
 }
 
+#myprojects {
+	color: #96a5c4;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 45px;
+}
+
+.classname {
+	font-family: 'Titillium Web', sans-serif;
+	color: #cc66ff;
+}
+
 .projectslinks {
 	color: #b300b3;
-	/*text-align: center;*/
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 20px;
+}
+
+.projectdescriptions {
+	font-family: 'Abhaya Libre', serif;
+	font-size: 16px;
 }
 
 .projectspictures {
@@ -272,4 +336,5 @@ hr {
 	position:absolute;
 	bottom:0;
 	left:0;
+	padding-top: 20px;
 }

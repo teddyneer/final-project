@@ -3,6 +3,19 @@
 <head>
 	<title>Final Project - Projects</title>
 	<meta charset="utf-8">
+
+	<!-- my projects font -->
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+
+	<!-- links font -->
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+
+	<!-- descriptions font -->
+	<link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+
+	<!-- class name font -->
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -21,7 +34,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#">Teddy Neer</a>
+	      <a class="navbar-brand" href="index.html">Teddy Neer</a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,59 +81,92 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 	<div class="projectscontainer">
-		<h1>My Projects</h1>
+		<h1 id="myprojects">My Projects</h1>
+		<div class="row">
+		  <div class="col-md-3"></div>
+		  <div class="col-md-6">
+		  	<h2 class="classname">Front-End Web Development Projects:</h2>
+			<p class="projectdescriptions">10 week immersive course where I was introduced to the basics of front-end web development.  We covered building websites, like this one, using HTML, CSS, adding interactivity through JavaScript and programmatic thinking.  This was a course for students with little to no programming background.*</p>
+		  </div>
+		  <div class="col-md-3"></div>
+		</div>
 		<div class="row">
   			<div class="col-md-6">
   				<a href="https://teddyneer.github.io/tictactoe" class="projectslinks">Tic Tac Toe</a>
-  				<p>I created this tic tac toe board from scratch using HTML, CSS and JavaScript.  You can play against yourself, or with another person.  Unfortunately, the computer cannot play you yet.</p>
+  				<p class="projectdescriptions">I created this tic tac toe board from scratch using HTML, CSS and JavaScript.  You can play against yourself, or with another person.  Unfortunately, the computer cannot play you yet.</p>
   				<img src="images/tictactoe.png" alt="Tic Tac Toe" class="projectspictures">
   			</div>
   			<div class="col-md-6">
   				<a href="https://teddyneer.github.io/Cookies/" class="projectslinks">Cookie Recipe</a>
-  				<p>This was the first code I ever did.  It has very basic HTML and CSS.</p>
+  				<p class="projectdescriptions">This was the first code I ever wrote.  It uses very basic HTML and CSS.</p>
   				<img src="images/cookierecipe.png" alt="Cookie Recipe" class="projectspictures">
   			</div>
 		</div>
 		<div class="row">
-		  <div class="col-md-6">
-		  	<a href="https://teddyneer.github.io/Fashion-blog/" class="projectslinks">Fashion Blog</a>
-		  	<p>Here is another one that I created from scratch.  I had a photo of what is was supposed to look like and I had to get it as close as possible to it.</p>
-		  	<img src="images/fashionblog.png" alt="Fashion Blog" class="projectspictures">
-		  </div>
-		  <div class="col-md-6">
-		  	<a href="https://teddyneer.github.io/divided-times/" class="projectslinks">Divided Times</a>
-		  	<p>When this project was assigned, all of the HTML and CSS were already in place.  All I had to do was add JavaScript.  If you click into the link, the nav bar is all custom JavaScript.</p>
-		  	<img src="images/dividedtimes.png" alt="Divided Times" class="projectspictures">
-		  </div>
+			<div class="col-md-6">
+			  	<a href="https://teddyneer.github.io/Fashion-blog/" class="projectslinks">Fashion Blog</a>
+			  	<p class="projectdescriptions">Here is another one that I created from scratch.  I had a photo of what is was supposed to look like and I had to get it as close as possible to it.</p>
+			  	<img src="images/fashionblog.png" alt="Fashion Blog" class="projectspictures">
+			</div>
+			<div class="col-md-6">
+			  	<a href="https://teddyneer.github.io/divided-times/" class="projectslinks">Divided Times</a>
+			  	<p class="projectdescriptions">When this project was assigned, all of the HTML and CSS were already in place.  All I had to do was add JavaScript.  If you click into the link, the navigation bar is all custom JavaScript.</p>
+			  	<img src="images/dividedtimes.png" alt="Divided Times" class="projectspictures">
+			</div>
 		</div>
 		<div class="row">
-		  <div class="col-md-6">
-		  	<a href="https://teddyneer.github.io/score_keeper/" class="projectslinks">Score Keeper</a>
-		  	<p>This was a more complicated lab using JavaScript.  It can add points, and set a custom score.  However, when you set the custom score it goes back to that number instead of adding onto the points you already have.</p>
-		  	<img src="images/scorekeeper.png" alt="Score Keeper" class="projectspictures">
-		  </div>
-		  <div class="col-md-6">
-		  	<a href="https://teddyneer.github.io/Betty-White/" class="projectslinks">Betty White</a>
-		  	<p>This was the second project that I did.  Like the fashion blog, I had a picture of the way it was supposed to look in the end.</p>
-		  	<img src="images/wendybite.png" alt="Betty White" class="projectspictures">
-		  </div>
+			<div class="col-md-6">
+			  	<a href="https://teddyneer.github.io/score_keeper/" class="projectslinks">Score Keeper</a>
+			  	<p class="projectdescriptions">This was a more complicated lab using JavaScript.  It can add points, and set a custom score.  However, when you set the custom score it goes back to that number instead of adding onto the points you already have.</p>
+			  	<img src="images/scorekeeper.png" alt="Score Keeper" class="projectspictures">
+			</div>
+			<div class="col-md-6">
+			  	<a href="https://teddyneer.github.io/Betty-White/" class="projectslinks">Betty White</a>
+			  	<p class="projectdescriptions">This was the second project that I did.  Like the fashion blog, I had a picture of the way it was supposed to look in the end.</p>
+			  	<img src="images/wendybite.png" alt="Betty White" class="projectspictures">
+			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-6">
+			  	<a href="https://teddyneer.github.io/simple_spotify/" class="projectslinks">Spotify Song Search</a>
+			  	<p class="projectdescriptions">This project is really cool. Using JavaScript, when you search for a song, the webpage pulls from Spotify's api.</p>
+			  	<img src="images/spotifysearch.png" alt="Spotify Search" class="projectspictures">
+			</div>
+			<div class="col-md-6">
+			  	<a href="https://teddyneer.github.io/movie_search/" class="projectslinks">Movie Search</a>
+			  	<p class="projectdescriptions">Just like the Spotify Search, this project uses JavaScript to pull from imbd's api.</p>
+			  	<img src="images/moviesearch.png" alt="Movie Search" class="projectspictures">
+			</div>
+		</div>
+		<div class="row">
+		  <div class="col-md-3"></div>
 		  <div class="col-md-6">
-		  	<a href="https://teddyneer.github.io/simple_spotify/" class="projectslinks">Spotify Song Search</a>
-		  	<p>This project is really cool. Using JavaScript, when you search for a song, the webpage pulls from Spotify's api.</p>
-		  	<img src="images/spotifysearch.png" alt="Spotify Search" class="projectspictures">
+		  	<h2 class="classname">User Experience Design Project:</h2>
+			<p class="projectdescriptions">10 week immersive course where I learned a wide range of user experience methods and concepts.  I learned how to understand my target audience, meet a need they are facing and document it with deliverables such as sitemps, wireframes and prototypes.  I now can also apply a goal-oriented process to guide my design decisions, help me communicate with teammates and stakeholders more effectively and validate my results.  Lastly, I created a case study designed to showcase my process by walking people through what I did, why I did it and what my decisions were based upon.*</p>
 		  </div>
+		  <div class="col-md-3"></div>
+		</div>
+		<div class="row">
+		  <div class="col-md-3"></div>
 		  <div class="col-md-6">
-		  	<a href="https://teddyneer.github.io/movie_search/" class="projectslinks">Movie Search</a>
-		  	<p>Just like the Spotify Search, this project uses JavaScript to pull from imbd's api.</p>
-		  	<img src="images/moviesearch.png" alt="Movie Search" class="projectspictures">
+		  	<h2 class="classname">Product Management Project:</h2>
+			<p class="projectdescriptions">10 week immersive course where I explored the different processes and skills required to guide product development from ideation through execution and iteration in an Agile development environment.  I am now able to do customer and market research to define a Minimum Viable Product (MVP) to validate my project's hypothesis and assumptions.  I am confident that I would be able to lead an engineering team with a metric-driven product roadmap.*</p>
 		  </div>
+		  <div class="col-md-3"></div>
+		</div>
+		<div class="row">
+		  <div class="col-md-3"></div>
+		  <div class="col-md-6">
+		  	<h2 class="classname">Digital Marketing Project:</h2>
+			<p class="projectdescriptions">10 week immersive course where I learned to use the most relevant tools, frameworks and best practices to promote a brand, drive sales leads and increase customer engagement.  I am now able to be proficient in social advertising and use Google Analytics, Google AdWords and Excel to find meaning in user behavior.  I can also develop and plan a campaign driven by data and paid search strategies, measured by key performance indicators (KPIs).*</p>
+		  </div>
+		  <div class="col-md-3"></div>
 		</div>
 	</div> <!-- close container div -->
 	<footer>
 		<hr>
 		<p>Created by Teddy Neer &#9786;</p>
+		<p><i>* Course descriptions are from General Assembly Syllabi</i></p>
 	</footer>
 
 <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
