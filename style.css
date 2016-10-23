@@ -1,3 +1,9 @@
+/*navigation bar*/
+.navfont {
+	font-family: 'Courgette', cursive;
+	font-size: 15px;
+}
+
 /*blog page*/
 #blogcolor {
 	background-color: #cccccc;
@@ -31,6 +37,7 @@
 	padding-right: 30px;*/
 	font-family: 'Catamaran', sans-serif;
 	font-size: 15px;
+	padding-bottom: 15px;
 }
 
 /*home page*/
@@ -290,6 +297,10 @@
 	padding-top: 70px;
 	padding-left: 30px;
 	text-align: center;
+}
+
+.classcontainer {
+	padding-bottom: 20px;
 }
 
 #myprojects {
