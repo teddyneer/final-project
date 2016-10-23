@@ -4,6 +4,10 @@
 	font-size: 15px;
 }
 
+.navjava {
+	font-size: 17px;
+}
+
 /*blog page*/
 #blogcolor {
 	background-color: #cccccc;
@@ -260,6 +264,11 @@
 	font-family: 'Delius', cursive;
 	font-size: 20px;
 	list-style: circle;
+}
+
+.skillsjava {
+	font-size: 25px;
+	color: #666699;
 }
 
 /*interests page*/
